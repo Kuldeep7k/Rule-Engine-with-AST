@@ -31,6 +31,8 @@ This project implements a 3-tier rule engine designed to determine user eligibil
 
 ![evaluate rule](https://github.com/user-attachments/assets/e09bbce8-9aea-4033-af66-b84dd58fe1ad)
 
+---
+
 ## Tech Stack
 
 - **Backend**: Flask
