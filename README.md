@@ -21,7 +21,7 @@ This project implements a 3-tier rule engine designed to determine user eligibil
 
 ### Create Rule
 
-![create rule](https://github.com/user-attachments/assets/16338118-14fb-4d94-ae09-42b984dda008)
+![create rule](https://github.com/user-attachments/assets/6259c4ba-8c41-459b-a668-9fc8af6c7ff7)
 
 ### Combine Rules
 
