@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rule Engine</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <h1>Rule Engine with Abstract Syntax Tree (AST)</h1>
+
+    <h2>Create Rule</h2>
+    <textarea id="ruleInput" placeholder="Enter rule (e.g., age > 30)"></textarea>
+    <button onclick="createRule()">Create Rule</button>
+    <pre id="output"></pre>
+
+    <h2>Combine Rules</h2>
+    <textarea id="combineRulesInput" placeholder="Enter multiple rules, one per line (e.g., ((age > 30 AND department = 'Sales') OR (age < 25 AND department = 'Marketing')) AND (salary > 50000 OR experience > 5) )"></textarea>
+    <button onclick="combineRules()">Combine Rules</button>
+    <pre id="combinedOutput"></pre>
+
+    <h2>Evaluate Rule</h2>
+    <textarea id="evaluateASTInput" placeholder="Enter the AST JSON"></textarea>
+    <textarea id="evaluateDataInput" placeholder="Enter the data JSON (e.g., {&quot;age&quot;: 35})"></textarea>
+    <button onclick="evaluateRule()">Evaluate Rule</button>
+    <div id="evaluationResult"></div>
+
+    <script src="static/script.js"></script>
+</body>
+</html>
