@@ -13,6 +13,24 @@ This project implements a 3-tier rule engine designed to determine user eligibil
 - **Error Handling**: Comprehensive error handling for invalid rule formats and data inputs.
 - **Data Storage**: Persistent storage of rules in an SQLite database.
 
+## Screenshots
+
+### UI
+
+![Home](https://github.com/user-attachments/assets/4bb5336f-2112-4cce-8674-9b861f5673dc)
+
+### Create Rule
+
+![create rule](https://github.com/user-attachments/assets/16338118-14fb-4d94-ae09-42b984dda008)
+
+### Combine Rules
+
+![combined rule](https://github.com/user-attachments/assets/3064aa0b-7746-44c2-b339-46d586d4a1ac)
+
+### Evaluate Rule
+
+![evaluate rule](https://github.com/user-attachments/assets/e09bbce8-9aea-4033-af66-b84dd58fe1ad)
+
 ## Tech Stack
 
 - **Backend**: Flask
